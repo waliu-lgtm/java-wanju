@@ -4,24 +4,24 @@
 
 
 # //隧道相关设置（去掉下面变量前面#启用，否则使用临时隧道）
-# export TOK=${TOK:-''}  # 隧道token或json
-# export ARGO_DOMAIN=${ARGO_DOMAIN:-''} # 隧道域名
+ export TOK=${TOK:-'eyJhIjoiYTBjN2ExMTEwZjIwZTgxMzMwYTAxN2VjOGQ5MjNmYzQiLCJ0IjoiN2I5NzNkYWQtMjM5OC00ZjQzLWJlY2UtNTQxMTNmMWE3ZTEzIiwicyI6Ik9ETXdPVEF6WldRdE4yWmtOQzAwTXpkaExUZzVNalF0WkdNM05tVTFZMlpoWXpFNCJ9'}  # 隧道token或json
+ export ARGO_DOMAIN=${ARGO_DOMAIN:-'hosting.waliu.dpdns.org'} # 隧道域名
 
 
 # //哪吒相关设置
-export NEZHA_SERVER=${NEZHA_SERVER:-''}
-export NEZHA_KEY=${NEZHA_KEY:-''}
+export NEZHA_SERVER=${NEZHA_SERVER:-'agent.alpha.us.kg:80'}
+export NEZHA_KEY=${NEZHA_KEY:-'gCNZBwoZ9WigfrzOzvgtNySHOfN78DPi'}
 export NEZHA_PORT=${NEZHA_PORT:-'443'}
-export NEZHA_TLS=${NEZHA_TLS:-'1'}  # 1启用tls,0关闭tls
+export NEZHA_TLS=${NEZHA_TLS:-'0'}  # 1启用tls,0关闭tls
 
 
 # //节点相关设置(节点可在worlds文件里list.log查看)
 export TMP_ARGO=${TMP_ARGO:-'vms'}  # 节点类型,可选vls,vms,spl,xhttp,rel,hy2,tuic，sock,3x
-#export UUID=${UUID:-'9e0da28d-ee9c-4fef-95a4-df2d0335e649'} # 去掉#设置UUID,否则使用随机UUID
+export UUID=${UUID:-'49dcbf1a-7ae8-438c-ba20-3c86034bf638'} # 去掉#设置UUID,否则使用随机UUID
 export VL_PORT=${VL_PORT:-'8002'} #vles 端口
 export VM_PORT=${VM_PORT:-'8001'} #vmes 端口
 export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
-export SUB_NAME=${SUB_NAME:-'argo'} # 节点名称
+export SUB_NAME=${SUB_NAME:-'德国argo'} # 节点名称
 
 # reality相关设置(不能同时开游戏)
 # export SERVER_PORT="${SERVER_PORT:-${PORT:-443}}" # 指定hy2,tuic,reality使用的端口，否则自动获取
